@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define YELLOW "\e[5;33m"
+#define BLUE "\e[1;36m"
 #define END "\e[0m"
 #define MAX 100
 
@@ -35,39 +35,39 @@ void all_BUGS(int BUGS, int num, char* ch)
     case BUG_NAME:
         printf("An error %d was found in the input line %s'circle'%s\n",
                num,
-               YELLOW,
+               BLUE,
                END);
         break;
     case BUG_STAPLES:
         if (*ch == ')') {
             printf("An error %d was found in the input line %s')'%s\n",
                    num,
-                   YELLOW,
+                   BLUE,
                    END);
             break;
         } else {
             printf("An error %d was found in the input line %s'('%s\n",
                    num,
-                   YELLOW,
+                   BLUE,
                    END);
             break;
         }
     case BUG_NUMBER:
         printf("An error %d was found in the input line %s'double'%s\n",
                num,
-               YELLOW,
+               BLUE,
                END);
         break;
     case BUG_UNIDENTIFIED_VARIABLES:
         printf("An error %d was found in the input line %s'variable'%s\n",
                num,
-               YELLOW,
+               BLUE,
                END);
         break;
     case BUG_EXPECT_COMMA:
         printf("An error %d was found in the input line %s','%s\n",
                num,
-               YELLOW,
+               BLUE,
                END);
         break;
     }
