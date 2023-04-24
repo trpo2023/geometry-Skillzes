@@ -31,7 +31,7 @@ void show_bugs(int error, int num, char* ch)
                    END);
             break;
         }
-   case BUG_STAPLES_2:
+    case BUG_STAPLES_2:
         printf("An error %d was found in the input line %s'double'%s\n",
                num,
                BLUE,

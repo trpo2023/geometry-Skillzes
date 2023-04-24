@@ -3,9 +3,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <libgeometry/error.h>
 #include <libgeometry/data_x.h>
 #include <libgeometry/data_y.h>
+#include <libgeometry/error.h>
 #include <libgeometry/parser.h>
 #include <libgeometry/radius_data.h>
 

@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <libgeometry/error.h>
 #include <libgeometry/data_x.h>
+#include <libgeometry/error.h>
 
 double x_data(char* arr, int* num)
 {
