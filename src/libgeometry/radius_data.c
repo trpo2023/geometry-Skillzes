@@ -5,7 +5,6 @@
 #include <libgeometry/error.h>
 #include <libgeometry/radius_data.h>
 
-
 double radius_data(char* arr, int* num)
 {
     char free_space[20];
