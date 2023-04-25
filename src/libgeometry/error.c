@@ -60,6 +60,11 @@ void show_bugs(int error, int num, char* ch)
                num,
                BLUE,
                END);
+    case BUG_INCORRECT_RADIUS:
+        printf("Error at column %d: incorrect value for the %sradius%s\n",
+               num,
+               BLUE,
+               END);
         break;
     }
 }
