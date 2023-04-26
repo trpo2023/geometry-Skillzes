@@ -5,8 +5,8 @@
 
 #include <libgeometry/calculator.h>
 #include <libgeometry/error.h>
-#include <libgeometry/parser.h>
 #include <libgeometry/lexer.h>
+#include <libgeometry/parser.h>
 
 void to_lower(char* str, int ch)
 {
