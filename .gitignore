@@ -1,3 +1,6 @@
-*.o
-app
+geometry
+geometry_test
+*.[oad]
+*.swp
 .vscode
+
